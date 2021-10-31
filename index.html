@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="left-sec" style="background-color:black;">
+        
+    </section>
+    <section class="form">
+        <form> 
+            <h1>Hey there!</h1>
+        <label>What's your name?<br/><br/>
+            <input type="text" required placeholder="Enter your name" minlength="3">
+        </label>
+        <label>What's your email adress? <br/><br/>
+            <input type="email" required placeholder="Enter your e-mail adress">
+        </label>
+        <label>What services are you looking for? <br/><br/>
+            <select required class="services"> 
+                <option>Choose a service</option>
+                <option>Service 1</option>
+                <option>Service 2</option>
+                <option>Service 3</option>
+                <option>Service 4</option>
+                <option>Service 5</option>
+            </select>
+        </label>
+        <label>What's your budget? <br/><br/>
+            <select class="budget" required> 
+                <option>Choose a budget</option>
+                <option>Budget 1</option>
+                <option>Budget 2</option>
+                <option>Budget 3</option>
+                <option>Budget 4</option>
+                <option>Budget 5</option>
+            </select>
+        </label>
+        <label>Anything else you'd like to tell us?<br/><br/>
+            <textarea class="anything" rows="3" cols="50" style="width: auto;"></textarea>
+        </label>
+        
+        <label class="checkbox">I agree with the T&Cs.
+            <input type="checkbox" required>
+        </label>
+       
+        
+        <a class="submit" href="/pages/thankyou.html">Submit<img src="https://freesvg.org/img/Arrow-002.png"/></a>
+        
+    <form>
+    </section>
+    <section class="right-sec" style="background-color: black;">
+        
+    </section>
+</body>
+</html>
